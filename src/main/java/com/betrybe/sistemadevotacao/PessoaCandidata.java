@@ -3,6 +3,7 @@ package com.betrybe.sistemadevotacao;
 public class PessoaCandidata extends Pessoa {
   int numero;
   int votos;
+
   public PessoaCandidata(String nome, int numero) {
     this.nome = nome;
     this.numero = numero;
